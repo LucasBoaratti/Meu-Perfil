@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+body {
+    background-color: #54EC8E;
+    font-family: "Comic Sans MS", sans-serif;
+    font-size: 20px;
+}
+
+header {
+    background-color: #0077B6;
+    padding: 10px;
+}
+
+.informacoes-cabecalho {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.primeira-imagem {
+    width: 100px;
+    height: 100px;
+}
+
+.primeira-imagem img {
+    width: 100%;
+}
+
+.texto-informativo {
+    color: white;
+}
+
+.segunda-imagem {
+    width: 100px;
+    height: 100px;
+}
+
+.segunda-imagem img {
+    width: 100%;
+}
+
+.cor-fundo-informacoes {
+    background-color: #A4133C;
+}
+
+.informacoes-gerais {
+    text-align: center;
+    padding: 20px 0;
+    color: white;
+    margin: 30px 0;
+}
+
+.informacoes-foto {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.informacoes h2 {
+    margin: 20px 0;
+    color: white;
+}
+
+.informacoes p {
+    margin: 20px 0;
+    color: white;
+    font-size: 20px;
+}
+
+.informacoes a {
+    margin: 20px 0;
+    color: white;
+}
+
+.foto-pessoal {
+    width: 405px;
+    height: 420px;
+    margin-top: 40px;
+}
+
+.foto-pessoal img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.cor-fundo-imagem-representativa {
+    background-color: #33166C;
+    margin: 40px 0;
+    padding-bottom: 120px;
+}
+
+.imagem-texto {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.imagem-que-me-representa {
+    text-align: center;
+    color: white;
+    padding: 20px 0;
+}
+
+.imagem-representativa {
+    width: 575px;
+    height: 300px;
+}
+
+.imagem-representativa img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+#paragrafo {
+    color: white;
+    font-size: 20px;
+}
+
+.cor-fundo-hobbies {
+    background-color: #ff0a54;
+    padding: 0 10px;
+}
+
+.texto-hobbies {
+    text-align: center;
+    color: white;
+    padding: 20px 0;
+}
+
+.filmes-livros {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.filmes h2 {
+    color: white;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.imagens-filmes-series {
+    display: flex;
+}
+
+.imagens-filmes-series {
+    width: 350px;
+    height: 320px;
+}
+
+.imagens-filmes-series img {
+    width: 100%;
+    height: 70%;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+
+.livros h2 {
+    color: white;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.imagem-livro {
+    width: 325px;
+    height: 250px;
+}
+
+.imagem-livro img {
+    width: 100%;
+    height: 90%;
+    border-radius: 20px;
+}
+
+.musicas h2 {
+    color: white;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.generos-musical {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.generos-musical img {
+    width: 200px;
+    height: 210px;
+    border-radius: 20px;
+}
+
+.generos-musical-texto {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+}
+
+.generos-musical-texto h3 {
+    margin: 15px 25px 40px 0;
+    color: white;     
+}
